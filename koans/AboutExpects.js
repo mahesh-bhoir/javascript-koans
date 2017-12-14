@@ -12,7 +12,7 @@ describe('About Expects', function() {
     var expectedValue = 2;
     var actualValue = 1 + 1;
 
-    expect(actualValue === expectedValue).toBeTruthy();
+    expect(actualValue !== expectedValue).toBeTruthy();
   });
 
   // Some ways of asserting equality are better than others.
